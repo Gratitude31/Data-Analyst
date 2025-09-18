@@ -1,5 +1,18 @@
-**Project Background
-**Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+# **Project Background**
+
+This project uses the Telco Customer Churn dataset from Kaggle, which includes customer account information, demographics, subscribed services, billing details, and churn status.
+
+For this analysis, I frame it as a case study of a telecommunications company that provides internet, phone, and streaming services. The company operates primarily on a monthly subscription model, generating revenue from recurring service charges.
+
+Recently, the company has observed an increase in customer cancellations (churn). Because churn directly affects revenue and customer lifecycle, management has requested an in-depth analysis to:
+
+  1. Understand the key drivers of churn
+
+  2. Identify high-risk customer segments
+
+  3. Recommend actionable strategies to improve retention
+
+As the data analyst, my role is to deliver data-driven insights that management can use to design effective retention campaigns and strengthen long-term customer loyalty.
 
 Insights and recommendations are provided on the following key areas:
 
