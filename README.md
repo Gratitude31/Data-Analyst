@@ -14,19 +14,19 @@ Recently, the company has observed an increase in customer cancellations (churn)
 
 As the data analyst, my role is to deliver data-driven insights that management can use to design effective retention campaigns and strengthen long-term customer loyalty.
 
-Insights and recommendations are provided on the following key areas:
+# **Insights and recommendations are provided on the following key areas:**
 
 Category 1:
 Category 2:
 Category 3:
 Category 4:
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
 
-Targed SQL queries regarding various business questions can be found here [link].
+The data inspection and cleaning steps were performed in Excel, including initial checks for missing values, outliers, and basic transformations.
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+The interactive Power BI dashboard, which allows stakeholders to explore churn trends and drill down by customer segment, can be accessed here: [Power BI Dashboard Link]
 
 Data Structure & Initial Checks
+
 The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
 
 Table 2:
