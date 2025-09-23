@@ -14,12 +14,35 @@ Recently, the company has observed an increase in customer cancellations (churn)
 
 As the data analyst, my role is to deliver data-driven insights that management can use to design effective retention campaigns and strengthen long-term customer loyalty.
 
-# **Insights and recommendations are provided on the following key areas:**
+# **Data Cleaning & Preparation**
 
-Category 1:
-Category 2:
-Category 3:
-Category 4:
+* Data inspection, cleaning, and transformation were performed using Power Query in Power BI.
+* Steps included:
+  * Text cleaning (trimmed and standardized service categories).
+  * Data type conversions (e.g., TotalCharges from text to numeric).
+  * Feature creation:
+    * AverageMonthlySpend = TotalCharges ÷ max(Tenure, 1)
+    * TenureGroup bucketed as:
+      * 0–12 months
+      * 13–24 months
+      * 25+ months
+* Removed duplicate records (none found).
+* Checked for negative or out-of-range values in key financial columns (none detected).
+
+# **Interactive Dashboard**
+
+The interactive Power BI dashboard enables stakeholders to:
+* Explore churn trends across demographics, contract types, services, and billing methods.
+* Drill down by customer segment for targeted retention planning.
+👉 Power BI Dashboard Link (insert link if published online)
+
+# **Key Analysis Categories**
+
+Insights and recommendations are organized around these areas:
+* Category 1: Customer Demographics (e.g., senior citizens, gender distribution)
+* Category 2: Services Subscribed (phone, internet, multiple lines)
+* Category 3: Contract & Billing (monthly vs. long-term contracts, payment methods)
+* Category 4: Financial Metrics (MonthlyCharges, AverageMonthlySpend, TotalCharges)
 
 The data inspection and cleaning steps were performed in Excel, including initial checks for missing values, outliers, and basic transformations.
 
