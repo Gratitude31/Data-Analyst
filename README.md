@@ -108,25 +108,3 @@ Main insight 3. More detail about the supporting analysis about this insight, in
 Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 4]
-
-Recommendations:
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following:
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Specific observation that is related to a recommended action. Recommendation or general guidance based on this observation.
-
-Assumptions and Caveats:
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
-
-Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-
-Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-
-Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
