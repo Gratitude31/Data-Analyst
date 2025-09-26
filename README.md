@@ -65,14 +65,24 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 Insights Deep Dive
-Category 1:
-Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Category 1: Customer Demographics (e.g., senior citizens, gender distribution)
 
-Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 1
+  * Observation: The segment with the highest churn rate is Senior Citizen, Female, without Dependents or Partner, at 49.48%, followed closely by the same segment for Male, at 48.36%.
+  * Interpretation: Older customers who are single and have no dependents are the most likely to leave the service.
+  * Supporting Analysis: Across the Small Multiples chart (4 panels: Senior/Non-Senior × Male/Female), this segment consistently shows the tallest bars, indicating persistent churn risk.
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 2
+  * Observation: Customers without a Partner or Dependents have the highest churn rates, while those with either or both have the lowest churn.
+  * Quantitative Values:
+    * “Neither” segment: ~30–49% churn
+    * “Partner Only”, “Dependents Only”, or “Partner + Dependents” segments: 12–37% churn
+  * Interpretation: Household connections (partner or dependents) appear correlated with higher retention
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main insight 3
+  * Observation: Gender differences exist but are minor compared to household status.
+  * Quantitative Comparison: Female Senior Citizens without Partner/Dependents: 49.48%; Male Senior Citizens without Partner/Dependents: 48.36%.
+  * Interpretation: While females in this demographic have slightly higher churn, the primary driver remains the absence of dependents or partner.
 
 [Visualization specific to category 1]
 
