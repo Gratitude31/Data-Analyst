@@ -84,7 +84,7 @@ Main insight 3
   * Quantitative Comparison: Female Senior Citizens without Partner/Dependents: 49.48%; Male Senior Citizens without Partner/Dependents: 48.36%.
   * Interpretation: While females in this demographic have slightly higher churn, the primary driver remains the absence of dependents or partner.
 
-![Customer Demographics Small Multiples](images/Category1_Demographics.jpg)
+![Customer Demographics Small Multiples](images/Category1_Demographics.png)
 
 Category 2:
 Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
