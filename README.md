@@ -86,16 +86,22 @@ Main insight 3
 
 ![Customer Demographics Small Multiples](images/Category1_Demographics.png)
 
-Category 2:
-Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 1 – Customer Base Profile
+  * The primary services are Phone, Internet, and Value-Added Services (VAS), covering ~7,000 customers in total.
 
-Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 2 – Overall vs. Key Service Churn
+  * Overall churn rate: 26.54%
+  * Customers with Fiber Internet show a much higher churn rate of 41.89%, suggesting stronger competition or service dissatisfaction.
+  * Those with Multiple Lines also have an elevated churn rate of 28.61%, slightly above the overall average.
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 3 – Internet Service Effect
+  * Customers without Internet service have the lowest churn at only 7%, highlighting internet-related services as a primary churn driver.
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 4 – Service-Specific Risk
+  * Customers with Multiple Lines churn at a rate similar to those with no Phone service, signaling that extreme ends of service adoption (none vs. many) both present risk.
+  * Among value-added services, Streaming TV exhibits the highest churn rate at 30%, making it the most vulnerable VAS segment.
 
-[Visualization specific to category 2]
+![ServicesSubscribed](images/Category2_ServicesSubscribed/png)
 
 Category 3:
 Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
