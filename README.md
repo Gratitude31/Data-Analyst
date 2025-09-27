@@ -65,6 +65,7 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 Insights Deep Dive
+
 Category 1: Customer Demographics (e.g., senior citizens, gender distribution)
 
 Main Insight 1
@@ -86,6 +87,8 @@ Main insight 3
 
 ![Customer Demographics Small Multiples](images/Category1_Demographics.png)
 
+Category 2: Services Subscribed (phone, internet, multiple lines)
+
 Main Insight 1 – Customer Base Profile
   * The primary services are Phone, Internet, and Value-Added Services (VAS), covering ~7,000 customers in total.
 
@@ -101,7 +104,7 @@ Main Insight 4 – Service-Specific Risk
   * Customers with Multiple Lines churn at a rate similar to those with no Phone service, signaling that extreme ends of service adoption (none vs. many) both present risk.
   * Among value-added services, Streaming TV exhibits the highest churn rate at 30%, making it the most vulnerable VAS segment.
 
-![ServicesSubscribed](images/Category2_ServicesSubscribed/png)
+![ServicesSubscribed](images/Category2_ServicesSubscribed.png)
 
 Category 3:
 Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
