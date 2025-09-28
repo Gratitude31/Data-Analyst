@@ -138,7 +138,7 @@ Main Insight 2 – Billing Method Impact
   * Customers using Electronic Billing, particularly those paying via electronic check, experience higher churn rates.
   * This suggests that paperless billing alone does not guarantee retention if payment methods remain manual or friction-prone.
 
-Main Insight 4 – Payment Method Patterns
+Main Insight 3 – Payment Method Patterns
   * Automatic Payment (Auto-Pay) customers—via credit card or bank transfer—show the lowest churn rates, thanks to reduced payment friction.
   * Manual methods such as electronic check or mailed checks remain high-risk segments.
 
@@ -162,7 +162,6 @@ Main Insight 3 – Tenure Group Analysis
 Matrix Insight 4 – Contract Type × MonthlyCharge Band
   * Observation: Month-to-Month customers are the riskiest segment, especially those in the ₱91–120 monthly charge band, with a churn rate of 52.16%.
   * Interpretation: Flexible contracts combined with high monthly charges represent the highest risk of churn. In contrast, customers on One-Year or Two-Year contracts, even with similar monthly charges, show lower churn rates.
-  * Actionable Insight: Retention campaigns should prioritize Month-to-Month customers in high-charge bands, possibly offering incentives to switch to longer-term contracts or providing value-added services to improve stickiness.
 
 ![FinancialMatrix](images/Category4_FinancialMatrix.png)
 
