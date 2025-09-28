@@ -27,6 +27,8 @@ Key Steps Taken:
 - Removing duplicate records (none found)
 - Checking and validating numeric ranges (no negative or anomalous values detected)
 
+After cleaning, the dataset contained ~7,000 unique customers and was ready for analysis.
+
 # **Interactive Dashboard**
 
 The Power BI dashboard allows stakeholders to explore churn trends dynamically across demographics, services, contracts, billing, and financial metrics.
@@ -41,13 +43,35 @@ Insights and recommendations are organized around these areas:
 1. **Customer Demographics** — age, gender, partner/dependent status  
 2. **Services Subscribed** — phone, internet, multiple lines, VAS  
 3. **Contract & Billing** — contract types, payment & billing methods  
-4. **Financial Metrics** — monthly charges, average monthly spend, total lifetime charges  
+4. **Financial Metrics** — monthly charges, average monthly spend, total lifetime charges
+
+Each section includes cards, charts, and matrices to highlight key churn drivers.
 
 # **Data Structure & Initial Checks**
 
-The main dataset consists of one primary table (merged from multiple sources) with ~7,000 customer records.
+The analysis is based on a **single merged table** of ~7,043 customer records, with columns like:
 
-Initial checks included duplicate detection, missing/blank values, range checks, and deriving new columns like `AverageMonthlySpend` and `TenureGroup`.
+| Column            | Description |
+|-------------------|--------------|
+| CustomerID         | Unique customer identifier |
+| Gender             | Male / Female |
+| SeniorCitizen       | Yes / No |
+| Partner             | Yes / No |
+| Dependents          | Yes / No |
+| PhoneService         | Yes / No |
+| MultipleLines        | Yes / No / No Phone Service |
+| InternetService      | DSL / Fiber / None |
+| Contract            | Month-to-Month / One-Year / Two-Year |
+| PaymentMethod        | Electronic / Check / Transfer / Credit Card |
+| PaperlessBilling     | Yes / No |
+| MonthlyCharges       | Numeric, recurring monthly fee |
+| TotalCharges          | Numeric, lifetime charges to date |
+| Churn               | Yes / No |
+| Tenure              | Number of months as a customer |
+| AverageMonthlySpend   | Derived field |
+| TenureGroup          | Derived bucket |
+
+Initial checks included verifying missing and out-of-range values, ensuring correct data types, and validating feature logic.
 
 # **Executive Summary**
 
