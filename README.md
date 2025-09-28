@@ -58,13 +58,20 @@ Table 4:
 Table 5:
 [Entity Relationship Diagram here]
 
-Executive Summary
+# **Executive Summary**
+
 Overview of Findings
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+
+This analysis identifies key drivers of churn for the telecommunications company, focusing on customer demographics, service subscriptions, contract & billing, and financial metrics. Stakeholders should note three main insights:
+  1. Demographics Matter: Senior citizens who are single and without dependents show the highest churn, highlighting household status as a key retention factor.
+  2. Service Adoption Impacts Risk: Customers with Fiber Internet, multiple lines, or specific value-added services like Streaming TV are more likely to churn, indicating dissatisfaction or competitive pressures in these segments.
+  3. Contract & Financial Levers Influence Churn: Month-to-Month contracts, especially with high monthly charges, present the highest churn risk, whereas longer-term contracts and automatic payment methods improve retention.
+
+Implication for Stakeholders: Retention campaigns should focus on high-risk demographic segments, optimize service bundles for satisfaction, and incentivize longer-term contracts or auto-pay adoption.
 
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
-Insights Deep Dive
+# **Insights Deep Dive**
 
 Category 1: Customer Demographics (e.g., senior citizens, gender distribution)
 
