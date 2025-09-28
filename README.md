@@ -150,3 +150,32 @@ Matrix Insight 4 – Contract Type × MonthlyCharge Band
   * Actionable Insight: Retention campaigns should prioritize Month-to-Month customers in high-charge bands, possibly offering incentives to switch to longer-term contracts or providing value-added services to improve stickiness.
 
 ![FinancialMatrix](images/Category4_FinancialMatrix.png)
+
+# **Recommendations**
+
+  1. Target High-Risk Demographics
+     * Observation: Senior Citizen customers, especially those without a Partner or Dependents, show the highest churn (~49%).
+     * Recommendation: Launch retention campaigns targeting this segment, such as personalized loyalty offers, bundled services, or proactive customer support.
+
+  2. Focus on Service-Specific Churn Drivers
+     * Observation: Customers with Fiber Internet or Multiple Lines have higher churn rates (Fiber: 41.89%, Multiple Lines: 28.61%).
+     * Recommendation: Conduct service satisfaction surveys and improve service quality for these offerings; consider promotional incentives to retain high-risk customers.
+
+  3. Mitigate Contract & Billing Churn Risks
+     * Observation: Month-to-Month customers, especially with high monthly charges, show elevated churn.
+     * Recommendation: Encourage longer-term contracts with incentives, provide payment flexibility, or highlight value-added services to reduce churn.
+  
+  4. Financial Metrics-Based Retention
+     * Observation: High spenders with short tenure (high Monthly Charges, low Total Charges) are at risk.
+     * Recommendation: Identify new, high-value customers for early engagement programs, offer personalized onboarding or discounts to reduce early churn.
+
+  5. Value-Added Services (VAS) Optimization
+     * Observation: Streaming services have the highest VAS churn (~30%).
+     * Recommendation: Offer bundled content, loyalty programs, or targeted promotions to retain VAS customers.
+
+# **Assumptions and Caveats**
+
+  1. Missing values for certain columns (e.g., TotalCharges) were assumed to be $0 for calculation purposes.
+  2. Customer tenure groups (0–12, 13–24, 25+ months) were created for segmentation; exact monthly patterns may vary.
+  3. Churn rate percentages are based on available historical snapshot; no temporal (month-to-month) trend was included.
+  4. Certain outliers (e.g., extremely high MonthlyCharges) were retained to reflect real customer risk, but may skew averages.
