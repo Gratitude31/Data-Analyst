@@ -122,13 +122,24 @@ Main Insight 4 – Payment Method Patterns
 
 ![ContractTypeRisk](images/Category3_ContractTypeRisk.png)
 
-Category 4:
-Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Category 4: Financial Metrics (MonthlyCharges, AverageMonthlySpend, TotalCharges)
 
-Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 1 – Average Charges Profile
+  * Observation: The average monthly charges across all customers is ₱64.76, while churned customers have a higher average of ₱74.44, indicating that higher-paying customers are slightly more likely to churn.
+  * Total Charges: Average lifetime charges is ₱2,280, suggesting most customers have relatively moderate total spend.
+  * Interpretation: Monthly charges may act as a risk indicator; higher monthly fees correlate with higher churn.
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 2 – Monthly Charge Bands
+  * Observation: Customers in the ₱61–90/month band are the largest group (~2,400 customers) and also show the highest churn (33.91%).
+  * Interpretation: This price band is both high in volume and high risk; targeted retention or incentives may reduce churn.
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 3 – Tenure Group Analysis
+  * Observation: Most customers are in the 25+ months tenure group (~3,800 customers) with the lowest churn (14.04%).
+  * Interpretation: Longer-tenured customers are more loyal. Retention strategies can prioritize newer customers (0–12 months or 13–24 months) who show higher churn risk.
 
-[Visualization specific to category 4]
+Matrix Insight 4 – Contract Type × MonthlyCharge Band
+  * Observation: Month-to-Month customers are the riskiest segment, especially those in the ₱91–120 monthly charge band, with a churn rate of 52.16%.
+  * Interpretation: Flexible contracts combined with high monthly charges represent the highest risk of churn. In contrast, customers on One-Year or Two-Year contracts, even with similar monthly charges, show lower churn rates.
+  * Actionable Insight: Retention campaigns should prioritize Month-to-Month customers in high-charge bands, possibly offering incentives to switch to longer-term contracts or providing value-added services to improve stickiness.
+
+![FinancialMatrix](images/Category4_FinancialMatrix.png)
