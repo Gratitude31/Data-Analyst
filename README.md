@@ -57,15 +57,9 @@ Insights and recommendations are organized around these areas:
 
 Note: Initial checks and transformations were also performed in Excel, including missing value analysis, outlier detection, and basic calculations.
 
-Data Structure & Initial Checks
+# **Data Structure & Initial Checks**
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-
-Table 2:
-Table 3:
-Table 4:
-Table 5:
-[Entity Relationship Diagram here]
+The main dataset consists of one primary table (merged from multiple sources) with ~7,000 customer records.
 
 # **Executive Summary**
 
