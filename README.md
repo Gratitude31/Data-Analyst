@@ -16,50 +16,38 @@ As the data analyst, my role is to deliver data-driven insights that management 
 
 # **Data Cleaning & Preparation**
 
-Data cleaning and transformation were performed primarily in Power BI using Power Query to ensure accuracy and consistency before analysis.
+All data cleaning and transformation were conducted in **Power Query** (within Power BI).
 
-Steps Taken:
-  * Text Cleaning: Trimmed and standardized service categories.
-  * Data Type Conversion: Converted TotalCharges from text to numeric.
-  * Feature Engineering:
-    * AverageMonthlySpend = TotalCharges ÷ MAX(Tenure, 1)
-    * TenureGroup buckets:
-      * 0–12 months
-      * 13–24 months
-      * 25+ months
-  * Duplicate Records: Checked and removed (none found).
-  * Outlier & Range Checks: Ensured no negative or out-of-range values in key financial columns.
+Key Steps Taken:
+- Trimming whitespace and cleaning text fields (service categories, gender, etc.)
+- Converting `TotalCharges` from text to numeric
+- Creating derived features:
+  - `AverageMonthlySpend = TotalCharges ÷ max(Tenure, 1)`
+  - `TenureGroup` buckets: 0–12, 13–24, 25+ months
+- Removing duplicate records (none found)
+- Checking and validating numeric ranges (no negative or anomalous values detected)
 
 # **Interactive Dashboard**
 
 The Power BI dashboard allows stakeholders to explore churn trends dynamically across demographics, services, contracts, billing, and financial metrics.
-
-Key Features:
-* Drill-down by customer segments for targeted retention planning.
-* Visualizations include: cards, clustered bars, stacked bars, scatter plots, heatmaps, and trend lines.
-* Enables cross-filtering across categories for multi-dimensional analysis.
+Key features:
+- Drill-down and filter by customer segments  
+- Visuals include cards, bar charts, matrix heatmaps, scatter plots, and trend lines
+- Uploaded here in github
 
 # **Key Analysis Categories**
 
 Insights and recommendations are organized around these areas:
-* Category 1: Customer Demographics
-  * Age, gender, partner status, and dependents.
-  * Highlights high-risk segments, e.g., Senior Citizens without dependents or partners.
-* Category 2: Services Subscribed (phone, internet, multiple lines)
-  * Phone, Internet, Multiple Lines, Value-Added Services (VAS).
-  * Shows service-related churn risk, including Fiber Internet and Streaming TV.
-* Category 3: Contract & Billing (monthly vs. long-term contracts, payment methods)
-  * Month-to-Month vs. long-term contracts, billing and payment methods.
-  * Identifies highest-risk segments such as Month-to-Month with manual payment.
-* Category 4: Financial Metrics (MonthlyCharges, AverageMonthlySpend, TotalCharges)
-  * MonthlyCharges, AverageMonthlySpend, TotalCharges.
-  * Analyzes financial drivers of churn, e.g., high monthly premium with Month-to-Month contracts.
-
-Note: Initial checks and transformations were also performed in Excel, including missing value analysis, outlier detection, and basic calculations.
+1. **Customer Demographics** — age, gender, partner/dependent status  
+2. **Services Subscribed** — phone, internet, multiple lines, VAS  
+3. **Contract & Billing** — contract types, payment & billing methods  
+4. **Financial Metrics** — monthly charges, average monthly spend, total lifetime charges  
 
 # **Data Structure & Initial Checks**
 
 The main dataset consists of one primary table (merged from multiple sources) with ~7,000 customer records.
+
+Initial checks included duplicate detection, missing/blank values, range checks, and deriving new columns like `AverageMonthlySpend` and `TenureGroup`.
 
 # **Executive Summary**
 
