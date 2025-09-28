@@ -69,7 +69,7 @@ This analysis identifies key drivers of churn for the telecommunications company
 
 Implication for Stakeholders: Retention campaigns should focus on high-risk demographic segments, optimize service bundles for satisfaction, and incentivize longer-term contracts or auto-pay adoption.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+(images/ExecutiveSummary.png)
 
 # **Insights Deep Dive**
 
