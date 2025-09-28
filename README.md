@@ -106,16 +106,21 @@ Main Insight 4 – Service-Specific Risk
 
 ![ServicesSubscribed](images/Category2_ServicesSubscribed.png)
 
-Category 3:
-Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Category 3: Contract & Billing (monthly vs. long-term contracts, payment methods)
 
-Main insight 2. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 1 – Contract Type Risk  
+  * Month-to-Month customers show the highest churn rate, reflecting the ease of cancellation without commitment.
+  * One-Year and Two-Year contracts exhibit significantly lower churn, demonstrating the retention benefit of longer commitments.
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 2 – Billing Method Impact
+  * Customers using Electronic Billing, particularly those paying via electronic check, experience higher churn rates.
+  * This suggests that paperless billing alone does not guarantee retention if payment methods remain manual or friction-prone.
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+Main Insight 4 – Payment Method Patterns
+  * Automatic Payment (Auto-Pay) customers—via credit card or bank transfer—show the lowest churn rates, thanks to reduced payment friction.
+  * Manual methods such as electronic check or mailed checks remain high-risk segments.
 
-[Visualization specific to category 3]
+![ContractTypeRisk](images/Category3_ContractTypeRisk.png)
 
 Category 4:
 Main insight 1. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
