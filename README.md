@@ -168,25 +168,25 @@ Matrix Insight 4 – Contract Type × MonthlyCharge Band
 
 # **Recommendations**
 
-  1. Target High-Risk Demographics
+  1. Target High-Risk Demographics (Marketing & Customer Experience Teams)
      * Observation: Senior Citizen customers, especially those without a Partner or Dependents, show the highest churn (~49%).
-     * Recommendation: Launch retention campaigns targeting this segment, such as personalized loyalty offers, bundled services, or proactive customer support.
+     * Recommendation: The Marketing and Customer Experience (CX) teams should design retention campaigns for this segment (e.g., loyalty rewards, senior-friendly bundles, or concierge-style customer support).
 
-  2. Focus on Service-Specific Churn Drivers
+  2. Address Service-Specific Churn Drivers (Network Operations & Product Management)
      * Observation: Customers with Fiber Internet or Multiple Lines have higher churn rates (Fiber: 41.89%, Multiple Lines: 28.61%).
-     * Recommendation: Conduct service satisfaction surveys and improve service quality for these offerings; consider promotional incentives to retain high-risk customers.
+     * Recommendation: Network Operations should prioritize service reliability improvements, while Product Management should run satisfaction surveys and launch targeted incentives (e.g., premium support or speed upgrades).
 
-  3. Mitigate Contract & Billing Churn Risks
+  3. Mitigate Contract & Billing Churn Risks (Sales & Billing/Finance Teams)
      * Observation: Month-to-Month customers, especially with high monthly charges, show elevated churn.
-     * Recommendation: Encourage longer-term contracts with incentives, provide payment flexibility, or highlight value-added services to reduce churn.
+     * Recommendation: Sales should promote longer-term contract options with signup discounts, while Billing/Finance can introduce flexible payment plans or auto-pay rewards to lock in commitment.
   
-  4. Financial Metrics-Based Retention
+  4. Engage High-Value New Customers Early (Customer Success & Analytics)
      * Observation: High spenders with short tenure (high Monthly Charges, low Total Charges) are at risk.
-     * Recommendation: Identify new, high-value customers for early engagement programs, offer personalized onboarding or discounts to reduce early churn.
+     * Recommendation: The Customer Success team, supported by Analytics, should flag these customers for early outreach programs—personalized onboarding, “VIP” welcome perks, or first-month credits.
 
-  5. Value-Added Services (VAS) Optimization
+  5. Optimize Value-Added Services (VAS) (Product & Content Partnerships)
      * Observation: Streaming services have the highest VAS churn (~30%).
-     * Recommendation: Offer bundled content, loyalty programs, or targeted promotions to retain VAS customers.
+     * Recommendation: Product and Content Partnership teams should negotiate exclusive content bundles, create loyalty tiers, or offer targeted promotions to improve retention.
 
 # **Assumptions and Caveats**
 
